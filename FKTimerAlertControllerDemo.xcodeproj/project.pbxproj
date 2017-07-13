@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7119D71E1F171BF000321042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7119D71D1F171BF000321042 /* main.m */; };
+		7119D7211F171BF000321042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7119D7201F171BF000321042 /* AppDelegate.m */; };
+		7119D7241F171BF000321042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7119D7231F171BF000321042 /* ViewController.m */; };
+		7119D7271F171BF000321042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7119D7251F171BF000321042 /* Main.storyboard */; };
+		7119D7291F171BF000321042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7119D7281F171BF000321042 /* Assets.xcassets */; };
+		7119D72C1F171BF000321042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7119D72A1F171BF000321042 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7119D7191F171BF000321042 /* FKTimerAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKTimerAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7119D71D1F171BF000321042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7119D71F1F171BF000321042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7119D7201F171BF000321042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7119D7221F171BF000321042 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7119D7231F171BF000321042 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7119D7261F171BF000321042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7119D7281F171BF000321042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7119D72B1F171BF000321042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7119D72D1F171BF000321042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7119D7161F171BF000321042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7119D7101F171BF000321042 = {
+			isa = PBXGroup;
+			children = (
+				7119D71B1F171BF000321042 /* FKTimerAlertControllerDemo */,
+				7119D71A1F171BF000321042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7119D71A1F171BF000321042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7119D7191F171BF000321042 /* FKTimerAlertControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7119D71B1F171BF000321042 /* FKTimerAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7119D71F1F171BF000321042 /* AppDelegate.h */,
+				7119D7201F171BF000321042 /* AppDelegate.m */,
+				7119D7221F171BF000321042 /* ViewController.h */,
+				7119D7231F171BF000321042 /* ViewController.m */,
+				7119D7251F171BF000321042 /* Main.storyboard */,
+				7119D7281F171BF000321042 /* Assets.xcassets */,
+				7119D72A1F171BF000321042 /* LaunchScreen.storyboard */,
+				7119D72D1F171BF000321042 /* Info.plist */,
+				7119D71C1F171BF000321042 /* Supporting Files */,
+			);
+			path = FKTimerAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		7119D71C1F171BF000321042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7119D71D1F171BF000321042 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7119D7181F171BF000321042 /* FKTimerAlertControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7119D7301F171BF000321042 /* Build configuration list for PBXNativeTarget "FKTimerAlertControllerDemo" */;
+			buildPhases = (
+				7119D7151F171BF000321042 /* Sources */,
+				7119D7161F171BF000321042 /* Frameworks */,
+				7119D7171F171BF000321042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKTimerAlertControllerDemo;
+			productName = FKTimerAlertControllerDemo;
+			productReference = 7119D7191F171BF000321042 /* FKTimerAlertControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7119D7111F171BF000321042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ForKid;
+				TargetAttributes = {
+					7119D7181F171BF000321042 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7119D7141F171BF000321042 /* Build configuration list for PBXProject "FKTimerAlertControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7119D7101F171BF000321042;
+			productRefGroup = 7119D71A1F171BF000321042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7119D7181F171BF000321042 /* FKTimerAlertControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7119D7171F171BF000321042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7119D72C1F171BF000321042 /* LaunchScreen.storyboard in Resources */,
+				7119D7291F171BF000321042 /* Assets.xcassets in Resources */,
+				7119D7271F171BF000321042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7119D7151F171BF000321042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7119D7241F171BF000321042 /* ViewController.m in Sources */,
+				7119D7211F171BF000321042 /* AppDelegate.m in Sources */,
+				7119D71E1F171BF000321042 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7119D7251F171BF000321042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7119D7261F171BF000321042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7119D72A1F171BF000321042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7119D72B1F171BF000321042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7119D72E1F171BF000321042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7119D72F1F171BF000321042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7119D7311F171BF000321042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FKTimerAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.FKTimerAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7119D7321F171BF000321042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FKTimerAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.FKTimerAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7119D7141F171BF000321042 /* Build configuration list for PBXProject "FKTimerAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7119D72E1F171BF000321042 /* Debug */,
+				7119D72F1F171BF000321042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7119D7301F171BF000321042 /* Build configuration list for PBXNativeTarget "FKTimerAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7119D7311F171BF000321042 /* Debug */,
+				7119D7321F171BF000321042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7119D7111F171BF000321042 /* Project object */;
+}
